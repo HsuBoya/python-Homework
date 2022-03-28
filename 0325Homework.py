@@ -55,7 +55,7 @@ print(number1)
 score = 0
 
 for x in range(6):
-     if number2[x] == number1[x]:
+     if number2.count(number2[x]) == number1.count(number2[x]):
          score +=1
 print('您中了:',score,'個')
 
