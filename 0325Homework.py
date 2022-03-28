@@ -44,10 +44,7 @@ while count1 <6:
         count1 +=1
     if count1 == 6:
         break
-    
-print('系統號碼為:')
-print(number1)
-
+        
 for f in range(len(number1)-1):
     for g in range(len(number1)-1):
         if number1[g]>number1[g+1]:
