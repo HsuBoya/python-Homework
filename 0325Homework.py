@@ -18,6 +18,15 @@ number2 = []
 check =True
 count1 = 0
 count2 = 0
+
+while count1 <6: 
+    c = random.randint(1,100)
+    if c not in number1:    
+        number1.append(c)
+        count1 +=1
+    if count1 == 6:
+        break
+print(number1)
 while check:
     
     if count2 < 6 :
@@ -31,15 +40,6 @@ while check:
         check = False
 
 print('您選的號碼是:',number2)
-
-while count1 <6: 
-    c = random.randint(1,100)
-    if c not in number1:    
-        number1.append(c)
-        count1 +=1
-    if count1 == 6:
-        break
-
 print('系統號碼為:',number1)
 
 score = 0
