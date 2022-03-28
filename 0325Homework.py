@@ -34,8 +34,7 @@ for d in range(len(number2)-1):
         if number2[e]>number2[e+1]:
             number2[e],number2[e+1] = number2[e+1],number2[e]
 
-print('您選的號碼是:')
-print(number2)
+print('您選的號碼是:'number2)
 
 while count1 <6: 
     c = random.randint(1,100)
@@ -49,8 +48,7 @@ for f in range(len(number1)-1):
     for g in range(len(number1)-1):
         if number1[g]>number1[g+1]:
             number1[g],number1[g+1] = number1[g+1],number1[g]
-print('系統號碼為:')
-print(number1)
+print('系統號碼為:',number1)
 
 score = 0
 
